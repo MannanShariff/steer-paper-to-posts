@@ -1,0 +1,71 @@
+<!doctype html><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Steer review gate</title><style>:root{--cream:#F5EBDF;--rust:#C04E2A;--ink:#351D1D;--clay:#8A5A4A;--blush:#E6CBBD;--paper:#F8F2EB}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;padding:24px 16px 80px}
+main{max-width:980px;margin:0 auto}h1,h2,h3{font-family:Lora,Georgia,serif;font-weight:500;margin:0}h1{font-size:40px}h1 em,h2 em{color:var(--rust)}
+h2{font-size:30px;margin-top:48px}.mark{font-family:Lora,Georgia,serif;color:var(--rust);font-size:28px;font-weight:600}
+.sub{color:var(--clay)}.card{background:var(--paper);border:1px solid var(--blush);border-radius:14px;padding:16px 18px;margin:12px 0}
+.strip{display:flex;gap:8px;overflow-x:auto;padding:6px 0}.strip img{height:230px;border:1px solid var(--blush);border-radius:8px}
+table{width:100%;border-collapse:collapse}td,th{padding:10px 8px;border-top:1px solid var(--blush);vertical-align:top;text-align:left}th{font-size:12px;color:var(--clay);font-weight:600;letter-spacing:.06em}
+blockquote{margin:0;font-family:Lora,Georgia,serif;font-style:italic}.pill{display:inline-block;padding:2px 10px;border-radius:99px;font-size:12px;font-weight:700}
+.ok{background:#e4dccf;color:var(--ink)}.bad{background:var(--rust);color:#fff}a{color:var(--rust)}
+input[type=text]{font:inherit;padding:10px 12px;border:1.5px solid var(--blush);border-radius:10px;background:#fffaf4;width:100%;max-width:340px}
+button{font:inherit;font-weight:700;padding:12px 20px;border-radius:99px;border:1.5px solid var(--rust);background:var(--rust);color:#fff8f0;cursor:pointer}
+input[type=checkbox]{width:20px;height:20px;accent-color:var(--rust)}.bar{position:sticky;bottom:0;background:var(--cream);border-top:1px solid var(--blush);padding:12px 0;margin-top:30px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+pre{white-space:pre-wrap;background:var(--paper);border:1px solid var(--blush);border-radius:10px;padding:12px;font-size:13px}</style><main>
+<div class=mark>steer</div><h1>Review gate: <em>approve before anything posts</em></h1>
+<p class=sub>Each claim below is linked to its verbatim source quote. Tick a claim only after checking it against the full paper. Nothing is scheduled until every item is approved.</p>
+<h2>Obesity and Dyslipidemia in South Asians</h2>
+<p class=sub>Source: <a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC3738996'>Nutrients 2013;5(7):2708</a> &middot; machine checks: <span class='pill ok'>0 failures</span> <span class='pill ok'>0 notes</span></p>
+<div class=card><b>Message.</b> BMI alone can flatter an Indian body, so ask for your waist and body composition too.<br><b>Why it works.</b> People with a &#x27;normal&#x27; BMI assume they are fine, or that treatment is not for them. Showing the two BMI scales side by side makes &#x27;built for Indian biology&#x27; visible in three seconds, and the waist flags give a number they can check at home before they talk to a doctor.</div>
+<div class=strip><img loading=lazy src='./bmi/carousel_01.png'><img loading=lazy src='./bmi/carousel_02.png'><img loading=lazy src='./bmi/carousel_03.png'><img loading=lazy src='./bmi/carousel_04.png'><img loading=lazy src='./bmi/carousel_05.png'><img loading=lazy src='./bmi/carousel_06.png'><img loading=lazy src='./bmi/static_4x5.png'></div>
+<table><tr><th>OK</th><th>CLAIM</th><th>VERBATIM QUOTE FROM SOURCE</th><th>USED IN</th></tr>
+<tr><td><input type=checkbox data-id='bmi:c1'></td><td><b>c1</b></td><td><blockquote>&ldquo;they have higher body fat at a given value of BMI than white Caucasians&rdquo;</blockquote></td><td>carousel 2, reel 2</td></tr>
+<tr><td><input type=checkbox data-id='bmi:c2'></td><td><b>c2</b></td><td><blockquote>&ldquo;BMI 23-24.9 kg/m2 for overweight and &gt;=25 kg/m2 for obesity, WC &gt;=80 cm for women and &gt;=90 cm for men for abdominal obesity&rdquo;</blockquote></td><td>carousel 3, carousel 4, static, reel 3, reel 4</td></tr>
+<tr><td><input type=checkbox data-id='bmi:c3'></td><td><b>c3</b></td><td><blockquote>&ldquo;Overweight: 25.0-29.9 b Obesity: &gt;30&rdquo;</blockquote></td><td>carousel 3, reel 3</td></tr>
+</table>
+<h3 style='margin-top:20px'>Steer view statements (opinion, not study findings)</h3><table>
+<tr><td><input type=checkbox data-id='bmi:view:carousel5'></td><td>carousel 5</td><td>So ask for more than a weighing scale. / Your waist, not just your weight. / A body-composition scan, so you see fat and lean separately. / A doctor who reads your numbers for Indian bodies.</td></tr>
+<tr><td><input type=checkbox data-id='bmi:view:reel5'></td><td>reel 5</td><td>So ask for more than a weighing scale. Your waist, a body composition scan, and a doctor who reads it for you.</td></tr>
+<tr><td><input type=checkbox data-id='bmi:view:reel6'></td><td>reel 6</td><td>Hear it from a doctor, not a reel. Steer club dot com.</td></tr>
+</table>
+<h2>STEP 1 DEXA substudy (ENDO 2021 presentation)</h2>
+<p class=sub>Source: <a href='https://www.patientcareonline.com/view/semaglutide-2-4-mg-reduces-visceral-adiposity-improves-lean-body-mass-to-fat-mass-ratio'>STEP 1 DEXA substudy, ENDO 2021</a> &middot; machine checks: <span class='pill ok'>0 failures</span> <span class='pill ok'>13 notes</span></p>
+<div class=card><b>Message.</b> Some lean mass goes along with weight loss, so measure what is changing instead of trusting the scale alone.<br><b>Why it works.</b> Muscle loss is a top-three worry in the brief. We do not deny it and we do not scare: fat fell about twice as much as lean mass, and the scan is how you can tell. That sets up Steer&#x27;s DEXA-first approach without promoting any drug.</div>
+<div class=strip><img loading=lazy src='./muscle/carousel_01.png'><img loading=lazy src='./muscle/carousel_02.png'><img loading=lazy src='./muscle/carousel_03.png'><img loading=lazy src='./muscle/carousel_04.png'><img loading=lazy src='./muscle/carousel_05.png'><img loading=lazy src='./muscle/carousel_06.png'><img loading=lazy src='./muscle/static_4x5.png'></div>
+<table><tr><th>OK</th><th>CLAIM</th><th>VERBATIM QUOTE FROM SOURCE</th><th>USED IN</th></tr>
+<tr><td><input type=checkbox data-id='muscle:c1'></td><td><b>c1</b></td><td><blockquote>&ldquo;Weight loss reduces lean muscle mass, potentially impacting resting energy expenditure and/or physical functioning.&rdquo;</blockquote></td><td>carousel 2, reel 2</td></tr>
+<tr><td><input type=checkbox data-id='muscle:c2'></td><td><b>c2</b></td><td><blockquote>&ldquo;reductions from baseline in total fat mass (-19.3%)&rdquo;</blockquote></td><td>carousel 3, static, reel 3</td></tr>
+<tr><td><input type=checkbox data-id='muscle:c3'></td><td><b>c3</b></td><td><blockquote>&ldquo;Although total lean body mass decreased from baseline (-9.7%)&rdquo;</blockquote></td><td>carousel 3, static, reel 3</td></tr>
+<tr><td><input type=checkbox data-id='muscle:c4'></td><td><b>c4</b></td><td><blockquote>&ldquo;it increased by 3 points relative to total body mass&rdquo;</blockquote></td><td>carousel 4, reel 4</td></tr>
+<tr><td><input type=checkbox data-id='muscle:c5'></td><td><b>c5</b></td><td><blockquote>&ldquo;Results: This analysis included 140 participants&rdquo;</blockquote></td><td>carousel 3, static, reel 3</td></tr>
+<tr><td><input type=checkbox data-id='muscle:c6'></td><td><b>c6</b></td><td><blockquote>&ldquo;Total fat mass, total lean body mass and regional visceral fat mass were measured using dual-energy absorptiometry (DEXA)&rdquo;</blockquote></td><td>unused</td></tr>
+</table>
+<h3 style='margin-top:20px'>Steer view statements (opinion, not study findings)</h3><table>
+<tr><td><input type=checkbox data-id='muscle:view:carousel5'></td><td>carousel 5</td><td>That is why we scan first. / A DEXA scan splits fat from lean, so kilos stop being the whole story. / Protecting muscle is part of the plan, with food and strength work alongside.</td></tr>
+<tr><td><input type=checkbox data-id='muscle:view:reel5'></td><td>reel 5</td><td>That is why we scan first. See fat and lean separately, and protect muscle in the plan.</td></tr>
+<tr><td><input type=checkbox data-id='muscle:view:reel6'></td><td>reel 6</td><td>Hear it from a doctor, not a reel. Steer club dot com.</td></tr>
+</table>
+<h2>Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension</h2>
+<p class=sub>Source: <a href='https://pmc.ncbi.nlm.nih.gov/articles/9542252'>Wilding et al., Diabetes Obes Metab 2022</a> &middot; machine checks: <span class='pill ok'>0 failures</span> <span class='pill ok'>0 notes</span></p>
+<div class=card><b>Message.</b> Weight coming back after stopping is biology, not failure, so a good programme plans the &#x27;after&#x27; from day one.<br><b>Why it works.</b> &#x27;Will I gain it all back?&#x27; is the most emotional doubt in the brief and the one competitors dodge. We state the trial number plainly, say what the data cannot tell you, then turn the fear into a question you can ask a doctor. That matches Steer&#x27;s &#x27;a planned exit&#x27; promise.</div>
+<div class=strip><img loading=lazy src='./regain/carousel_01.png'><img loading=lazy src='./regain/carousel_02.png'><img loading=lazy src='./regain/carousel_03.png'><img loading=lazy src='./regain/carousel_04.png'><img loading=lazy src='./regain/carousel_05.png'><img loading=lazy src='./regain/carousel_06.png'><img loading=lazy src='./regain/carousel_07.png'><img loading=lazy src='./regain/static_4x5.png'></div>
+<table><tr><th>OK</th><th>CLAIM</th><th>VERBATIM QUOTE FROM SOURCE</th><th>USED IN</th></tr>
+<tr><td><input type=checkbox data-id='regain:c1'></td><td><b>c1</b></td><td><blockquote>&ldquo;participants regained two-thirds of their prior weight loss&rdquo;</blockquote></td><td>carousel 2, static, reel 2</td></tr>
+<tr><td><input type=checkbox data-id='regain:c2'></td><td><b>c2</b></td><td><blockquote>&ldquo;mean weight loss was 17.3% (SD: 9.3%) with semaglutide&rdquo;</blockquote></td><td>carousel 3, reel 3</td></tr>
+<tr><td><input type=checkbox data-id='regain:c3'></td><td><b>c3</b></td><td><blockquote>&ldquo;regained 11.6 (SD: 7.7)&rdquo;</blockquote></td><td>carousel 3, reel 3</td></tr>
+<tr><td><input type=checkbox data-id='regain:c4'></td><td><b>c4</b></td><td><blockquote>&ldquo;Cardiometabolic improvements seen from week 0 to week 68 with semaglutide reverted towards baseline at week 120 for most variables.&rdquo;</blockquote></td><td>carousel 4</td></tr>
+<tr><td><input type=checkbox data-id='regain:c5'></td><td><b>c5</b></td><td><blockquote>&ldquo;Findings confirm the chronicity of obesity&rdquo;</blockquote></td><td>carousel 4, reel 4</td></tr>
+<tr><td><input type=checkbox data-id='regain:c6'></td><td><b>c6</b></td><td><blockquote>&ldquo;An off-treatment extension assessed for a further year a representative subset of participants who had completed 68 weeks of treatment.&rdquo;</blockquote></td><td>carousel 5</td></tr>
+<tr><td><input type=checkbox data-id='regain:c7'></td><td><b>c7</b></td><td><blockquote>&ldquo;Extension analyses included 327 participants.&rdquo;</blockquote></td><td>carousel 5, reel 4</td></tr>
+</table>
+<h3 style='margin-top:20px'>Steer view statements (opinion, not study findings)</h3><table>
+<tr><td><input type=checkbox data-id='regain:view:carousel6'></td><td>carousel 6</td><td>So ask a better question. / Not &#x27;will I fail?&#x27; but &#x27;what is my plan for after?&#x27; / Habits, food, strength and check-ins, planned from day one.</td></tr>
+<tr><td><input type=checkbox data-id='regain:view:reel5'></td><td>reel 5</td><td>So ask about the after. What is my maintenance plan, and how is the exit planned?</td></tr>
+<tr><td><input type=checkbox data-id='regain:view:reel6'></td><td>reel 6</td><td>Hear it from a doctor, not a reel. Steer club dot com.</td></tr>
+</table>
+<div class=bar><label>Reviewer name <input type=text id=rv placeholder='Dr ...'></label><button id=cp>Copy approvals JSON</button><span id=msg class=sub></span></div>
+<p class=sub>Paste the copied JSON into approvals.json, then run <code>python publish_gate.py</code>.</p><pre id=out></pre>
+<script>const ALL=["bmi:c1", "bmi:c2", "bmi:c3", "bmi:view:carousel5", "bmi:view:reel5", "bmi:view:reel6", "muscle:c1", "muscle:c2", "muscle:c3", "muscle:c4", "muscle:c5", "muscle:c6", "muscle:view:carousel5", "muscle:view:reel5", "muscle:view:reel6", "regain:c1", "regain:c2", "regain:c3", "regain:c4", "regain:c5", "regain:c6", "regain:c7", "regain:view:carousel6", "regain:view:reel5", "regain:view:reel6"];
+document.getElementById('cp').onclick=function(){const ok=[...document.querySelectorAll('input[data-id]:checked')].map(e=>e.dataset.id);
+const j=JSON.stringify({reviewer:document.getElementById('rv').value.trim(),approved:ok,total:ALL.length},null,2);
+document.getElementById('out').textContent=j;const m=document.getElementById('msg');
+(navigator.clipboard?navigator.clipboard.writeText(j):Promise.reject()).then(()=>m.textContent=ok.length+' of '+ALL.length+' approved. Copied.',()=>m.textContent=ok.length+' of '+ALL.length+' approved. Select the text below and copy.');}</script></main>

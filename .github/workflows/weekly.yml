@@ -1,0 +1,19 @@
+name: weekly-content
+on:
+  schedule: [{cron: "30 3 * * 1"}]   # Monday 09:00 IST
+  workflow_dispatch: {}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-inter && pip install pillow pypdf
+      - run: python ingest.py "$PAPER_URL" weekly_paper   # set PAPER_URL as a repo variable
+        if: env.PAPER_URL != ''
+      - run: python -c "from engine.llm import paper_to_spec; paper_to_spec('papers/weekly_paper.txt','weekly')"
+        if: env.ANTHROPIC_API_KEY != ''
+        env: {ANTHROPIC_API_KEY: "${{ secrets.ANTHROPIC_API_KEY }}"}
+      - run: python run.py && python -m unittest discover tests
+      - uses: actions/upload-artifact@v4
+        with: {name: review-pack, path: out/}
+      # A Steer doctor opens out/review.html, approves, commits approvals.json; publish_gate.py then queues the week.

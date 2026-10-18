@@ -1,0 +1,10 @@
+SOURCE A: ENDO 2021 STEP 1 DEXA substudy, reported by Patient Care. https://www.patientcareonline.com/view/semaglutide-2-4-mg-reduces-visceral-adiposity-improves-lean-body-mass-to-fat-mass-ratio
+SOURCE B: Wilding et al., STEP 1 DEXA substudy abstract (newswise PDF). https://www.newswise.com/pdf_docs/16159288255831_Wilding Abstract.pdf
+RETRIEVED: text as returned by web search (primary full text not reachable from this environment).
+
+[A] Total fat mass, total lean body mass and regional visceral fat mass were measured using dual-energy absorptiometry (DEXA) at screening and week 68.
+[A] In semaglutide-treated patients, reductions from baseline in total fat mass (-19.3%) and regional visceral fat mass (-27.4%) led to 3.5%-point reduction in proportion of total fat mass and a 2.0%-point reduction in proportion of visceral fat mass.
+[A] Although total lean body mass decreased from baseline (-9.7%) in the semaglutide group, it increased by 3 points relative to total body mass.
+
+[B] Weight loss reduces lean muscle mass, potentially impacting resting energy expenditure and/or physical functioning.
+[B] Results: This analysis included 140 participants (semaglutide n=95; placebo n=45).

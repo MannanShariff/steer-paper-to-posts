@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "title": "Obesity and Dyslipidemia in South Asians",
+    "short": "Nutrients 2013;5(7):2708",
+    "tag": "Nutrients 2013",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3738996",
+    "file": "papers/south_asian_bmi.txt"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "quote": "they have higher body fat at a given value of BMI than white Caucasians"
+    },
+    {
+      "id": "c2",
+      "quote": "BMI 23-24.9 kg/m2 for overweight and >=25 kg/m2 for obesity, WC >=80 cm for women and >=90 cm for men for abdominal obesity"
+    },
+    {
+      "id": "c3",
+      "quote": "Overweight: 25.0-29.9 b Obesity: >30"
+    }
+  ],
+  "message": "BMI alone can flatter an Indian body, so ask for your waist and body composition too.",
+  "reasoning": "People with a 'normal' BMI assume they are fine, or that treatment is not for them. Showing the two BMI scales side by side makes 'built for Indian biology' visible in three seconds, and the waist flags give a number they can check at home before they talk to a doctor."
+}

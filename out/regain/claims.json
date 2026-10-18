@@ -1,0 +1,41 @@
+{
+  "paper": {
+    "title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension",
+    "short": "Wilding et al., Diabetes Obes Metab 2022",
+    "tag": "Wilding et al. 2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/9542252",
+    "file": "papers/step1_extension.txt"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "quote": "participants regained two-thirds of their prior weight loss"
+    },
+    {
+      "id": "c2",
+      "quote": "mean weight loss was 17.3% (SD: 9.3%) with semaglutide"
+    },
+    {
+      "id": "c3",
+      "quote": "regained 11.6 (SD: 7.7)"
+    },
+    {
+      "id": "c4",
+      "quote": "Cardiometabolic improvements seen from week 0 to week 68 with semaglutide reverted towards baseline at week 120 for most variables."
+    },
+    {
+      "id": "c5",
+      "quote": "Findings confirm the chronicity of obesity"
+    },
+    {
+      "id": "c6",
+      "quote": "An off-treatment extension assessed for a further year a representative subset of participants who had completed 68 weeks of treatment."
+    },
+    {
+      "id": "c7",
+      "quote": "Extension analyses included 327 participants."
+    }
+  ],
+  "message": "Weight coming back after stopping is biology, not failure, so a good programme plans the 'after' from day one.",
+  "reasoning": "'Will I gain it all back?' is the most emotional doubt in the brief and the one competitors dodge. We state the trial number plainly, say what the data cannot tell you, then turn the fear into a question you can ask a doctor. That matches Steer's 'a planned exit' promise."
+}

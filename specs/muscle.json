@@ -1,0 +1,51 @@
+{
+  "id": "muscle",
+  "paper": {"title": "STEP 1 DEXA substudy (ENDO 2021 presentation)", "short": "STEP 1 DEXA substudy, ENDO 2021", "tag": "STEP 1 DEXA substudy, 2021", "url": "https://www.patientcareonline.com/view/semaglutide-2-4-mg-reduces-visceral-adiposity-improves-lean-body-mass-to-fat-mass-ratio", "file": "papers/step1_dexa.txt"},
+  "audience_doubt": "Will I lose muscle?",
+  "message": "Some lean mass goes along with weight loss, so measure what is changing instead of trusting the scale alone.",
+  "reasoning": "Muscle loss is a top-three worry in the brief. We do not deny it and we do not scare: fat fell about twice as much as lean mass, and the scan is how you can tell. That sets up Steer's DEXA-first approach without promoting any drug.",
+  "claims": [
+    {"id": "c1", "quote": "Weight loss reduces lean muscle mass, potentially impacting resting energy expenditure and/or physical functioning."},
+    {"id": "c2", "quote": "reductions from baseline in total fat mass (-19.3%)"},
+    {"id": "c3", "quote": "Although total lean body mass decreased from baseline (-9.7%)"},
+    {"id": "c4", "quote": "it increased by 3 points relative to total body mass"},
+    {"id": "c5", "quote": "Results: This analysis included 140 participants"},
+    {"id": "c6", "quote": "Total fat mass, total lean body mass and regional visceral fat mass were measured using dual-energy absorptiometry (DEXA)"}
+  ],
+  "carousel": {
+    "slides": [
+      {"type": "cover", "eyebrow": "field notes · body composition", "headline": "Weight loss isn't only about the *scale.*", "sub": "What a body scan showed in a trial.", "claims": []},
+      {"type": "statement", "eyebrow": "the worry is real", "headline": "Lean mass *can* go too.", "body": "Researchers note that weight loss reduces lean muscle mass, which can affect energy use and physical function.", "claims": ["c1"]},
+      {"type": "bars", "eyebrow": "what the scan measured", "headline": "Fat fell *more* than lean mass.", "items": [
+        {"label": "Total fat mass, change from baseline", "display": "about 19%", "value": 19.3, "max": 20},
+        {"label": "Total lean body mass, change from baseline", "display": "about 10%", "value": 9.7, "max": 20}], "note": "Both fell. Figures are decreases, from a body-scan substudy of 140 adults.", "claims": ["c2", "c3", "c5"]},
+      {"type": "stat", "eyebrow": "the other side of it", "stat": "+3 points", "headline": "Lean tissue's *share* of body mass went up, even as lean mass fell.", "claims": ["c4"]},
+      {"type": "bullets", "eyebrow": "the steer view", "headline": "That is why we *scan first.*", "lines": ["A DEXA scan splits fat from lean, so kilos stop being the whole story.", "Protecting muscle is part of the plan, with food and strength work alongside."], "steer_view": true},
+      {"type": "cta", "headline": "Before you start, hear it from a doctor, *not a reel.*", "pill": "Talk to a Steer doctor", "small": "No obligation. If it isn't right for you, they'll say so."}
+    ],
+    "caption": "Will I lose muscle? Honest answer: some lean mass can go along with weight loss.\n\nIn a body-scan substudy of 140 adults, fat mass fell about 19% and lean mass about 10%. Lean tissue's share of body mass still rose by 3 points, because fat fell more.\n\nThat is why a scan beats the weighing scale, and why protecting muscle belongs in the plan.\n\nsteerclub.com\n\nSource: STEP 1 DEXA substudy, ENDO 2021 (via Patient Care) and Wilding et al. abstract.",
+    "caption_hi": "Kya muscle ghatega? Seedha jawab: weight loss ke saath kuch lean mass ja sakta hai.\n\n140 adults ke body-scan substudy mein fat mass lagbhag 19% aur lean mass lagbhag 10% kam hua. Fat zyada ghata, isliye lean tissue ka share 3 points badh gaya.\n\nIsiliye scan weighing scale se behtar hai, aur plan mein muscle bachana zaroori hai.\n\nsteerclub.com",
+    "hashtags": ["#SteerClub", "#MetabolicHealth", "#MuscleMatters", "#IndianHealth", "#DoctorLed"]
+  },
+  "static": {
+    "slide": {"type": "bars", "eyebrow": "from a body-scan substudy", "headline": "Fat fell *more* than lean mass. Both fell.", "items": [
+      {"label": "Total fat mass", "display": "about 19%", "value": 19.3, "max": 20},
+      {"label": "Total lean body mass", "display": "about 10%", "value": 9.7, "max": 20}], "note": "Decrease from baseline, 140 adults. A scan shows what the scale can't.", "claims": ["c2", "c3", "c5"]},
+    "caption": "Lean mass can go along with weight loss. In a body-scan substudy of 140 adults, fat mass fell about 19% and lean mass about 10%. A scan shows what the weighing scale can't.\n\nsteerclub.com\n\nSource: STEP 1 DEXA substudy, ENDO 2021.",
+    "hashtags": ["#SteerClub", "#MuscleMatters", "#DoctorLed"]
+  },
+  "reel": {
+    "scenes": [
+      {"slide": {"type": "cover", "eyebrow": "field notes", "headline": "Will you lose *muscle?*", "sub": ""}, "say": "Will you lose muscle? Honest answer, some lean mass can go too.", "sub": "Will you lose muscle?", "claims": []},
+      {"slide": {"type": "statement", "eyebrow": "the worry is real", "headline": "Lean mass *can* go too.", "body": "Weight loss reduces lean muscle mass."}, "say": "Researchers note that weight loss reduces lean muscle mass.", "sub": "Weight loss reduces lean muscle mass.", "claims": ["c1"]},
+      {"slide": {"type": "bars", "eyebrow": "the scan", "headline": "Fat fell *more.*", "items": [
+        {"label": "Fat mass", "display": "about 19%", "value": 19.3, "max": 20},
+        {"label": "Lean mass", "display": "about 10%", "value": 9.7, "max": 20}], "note": "Decrease from baseline. 140 adults."}, "say": "In a scan study of one hundred forty adults, fat mass fell about nineteen percent, and lean mass about ten percent.", "sub": "Fat mass fell about 19%. Lean mass about 10%.", "claims": ["c2", "c3", "c5"]},
+      {"slide": {"type": "stat", "eyebrow": "share of body", "stat": "+3 points", "headline": "Lean tissue's *share* went up."}, "say": "Because fat fell more, lean tissue's share of the body went up by three points.", "sub": "Lean share of body mass rose 3 points.", "claims": ["c4"]},
+      {"slide": {"type": "bullets", "eyebrow": "so measure it", "headline": "Scan, don't *guess.*", "lines": ["See fat and lean separately", "Protect muscle in the plan"]}, "say": "That is why we scan first. See fat and lean separately, and protect muscle in the plan.", "sub": "Scan first. Protect muscle in the plan.", "steer_view": true},
+      {"slide": {"type": "cta", "headline": "Hear it from a doctor, *not a reel.*", "pill": "steerclub.com", "small": "No obligation."}, "say": "Hear it from a doctor, not a reel. Steer club dot com.", "sub": "Hear it from a doctor, not a reel.", "steer_view": true}
+    ],
+    "caption": "Will you lose muscle? Some lean mass can go along with weight loss. In a scan substudy of 140 adults, fat fell about 19% and lean about 10%. That is why we scan first. steerclub.com\n\nSource: STEP 1 DEXA substudy, ENDO 2021.",
+    "hashtags": ["#SteerClub", "#MuscleMatters", "#DoctorLed"]
+  }
+}

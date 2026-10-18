@@ -1,0 +1,47 @@
+{
+  "papers": {
+    "bmi": {
+      "stages_sec": {
+        "verify": 0.0,
+        "lint": 0.0,
+        "carousel": 0.3,
+        "static+resizes": 0.1,
+        "reel": 13.7,
+        "captions": 0.0,
+        "total": 14.1
+      },
+      "fail": 0,
+      "notes": 0,
+      "failures": []
+    },
+    "muscle": {
+      "stages_sec": {
+        "verify": 0.0,
+        "lint": 0.0,
+        "carousel": 0.2,
+        "static+resizes": 0.1,
+        "reel": 12.4,
+        "captions": 0.0,
+        "total": 12.8
+      },
+      "fail": 0,
+      "notes": 13,
+      "failures": []
+    },
+    "regain": {
+      "stages_sec": {
+        "verify": 0.0,
+        "lint": 0.0,
+        "carousel": 0.3,
+        "static+resizes": 0.2,
+        "reel": 13.3,
+        "captions": 0.0,
+        "total": 13.7
+      },
+      "fail": 0,
+      "notes": 0,
+      "failures": []
+    }
+  },
+  "batch_sec": 40.7
+}

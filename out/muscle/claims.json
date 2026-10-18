@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "title": "STEP 1 DEXA substudy (ENDO 2021 presentation)",
+    "short": "STEP 1 DEXA substudy, ENDO 2021",
+    "tag": "STEP 1 DEXA substudy, 2021",
+    "url": "https://www.patientcareonline.com/view/semaglutide-2-4-mg-reduces-visceral-adiposity-improves-lean-body-mass-to-fat-mass-ratio",
+    "file": "papers/step1_dexa.txt"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "quote": "Weight loss reduces lean muscle mass, potentially impacting resting energy expenditure and/or physical functioning."
+    },
+    {
+      "id": "c2",
+      "quote": "reductions from baseline in total fat mass (-19.3%)"
+    },
+    {
+      "id": "c3",
+      "quote": "Although total lean body mass decreased from baseline (-9.7%)"
+    },
+    {
+      "id": "c4",
+      "quote": "it increased by 3 points relative to total body mass"
+    },
+    {
+      "id": "c5",
+      "quote": "Results: This analysis included 140 participants"
+    },
+    {
+      "id": "c6",
+      "quote": "Total fat mass, total lean body mass and regional visceral fat mass were measured using dual-energy absorptiometry (DEXA)"
+    }
+  ],
+  "message": "Some lean mass goes along with weight loss, so measure what is changing instead of trusting the scale alone.",
+  "reasoning": "Muscle loss is a top-three worry in the brief. We do not deny it and we do not scare: fat fell about twice as much as lean mass, and the scan is how you can tell. That sets up Steer's DEXA-first approach without promoting any drug."
+}

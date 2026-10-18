@@ -1,0 +1,53 @@
+{
+  "id": "regain",
+  "paper": {"title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension", "short": "Wilding et al., Diabetes Obes Metab 2022", "tag": "Wilding et al. 2022", "url": "https://pmc.ncbi.nlm.nih.gov/articles/9542252", "file": "papers/step1_extension.txt"},
+  "audience_doubt": "Will the weight come back?",
+  "message": "Weight coming back after stopping is biology, not failure, so a good programme plans the 'after' from day one.",
+  "reasoning": "'Will I gain it all back?' is the most emotional doubt in the brief and the one competitors dodge. We state the trial number plainly, say what the data cannot tell you, then turn the fear into a question you can ask a doctor. That matches Steer's 'a planned exit' promise.",
+  "claims": [
+    {"id": "c1", "quote": "participants regained two-thirds of their prior weight loss"},
+    {"id": "c2", "quote": "mean weight loss was 17.3% (SD: 9.3%) with semaglutide"},
+    {"id": "c3", "quote": "regained 11.6 (SD: 7.7)"},
+    {"id": "c4", "quote": "Cardiometabolic improvements seen from week 0 to week 68 with semaglutide reverted towards baseline at week 120 for most variables."},
+    {"id": "c5", "quote": "Findings confirm the chronicity of obesity"},
+    {"id": "c6", "quote": "An off-treatment extension assessed for a further year a representative subset of participants who had completed 68 weeks of treatment."},
+    {"id": "c7", "quote": "Extension analyses included 327 participants."}
+  ],
+  "carousel": {
+    "slides": [
+      {"type": "cover", "eyebrow": "field notes · trial data", "headline": "Will it all *come back* if you stop?", "sub": "Name the worry. Here is what one trial found.", "claims": []},
+      {"type": "stat", "eyebrow": "the headline number", "stat": "two-thirds", "headline": "of the weight lost had come back *a year after* the medicine and the support stopped.", "claims": ["c1"]},
+      {"type": "bars", "eyebrow": "how it played out", "headline": "Lost on treatment. *Regained after.*", "items": [
+        {"label": "Average weight lost on treatment", "display": "17.3%", "value": 17.3, "max": 20},
+        {"label": "Regained in the year after (percentage points)", "display": "11.6", "value": 11.6, "max": 20}], "claims": ["c2", "c3"]},
+      {"type": "bullets", "eyebrow": "not a willpower story", "headline": "What the authors *concluded.*", "lines": [
+        "Obesity behaves like a *chronic* condition.", "Health markers also drifted back toward where they started."], "claims": ["c5", "c4"]},
+      {"type": "statement", "eyebrow": "read it honestly", "headline": "What this *can't* tell you.", "body": "These are averages from a follow-up of 327 adults, a subset of the original trial. It is a signal, not a promise about your body.", "claims": ["c6", "c7"]},
+      {"type": "bullets", "eyebrow": "the steer view", "headline": "So ask a better *question.*", "lines": [
+        "Not 'will I fail?' but *'what is my plan for after?'*", "Habits, food, strength and check-ins, planned from day one."], "steer_view": true},
+      {"type": "cta", "headline": "Before you start, hear it from a doctor, *not a reel.*", "pill": "Ask a Steer doctor", "small": "No obligation. If it isn't right for you, they'll say so."}
+    ],
+    "caption": "The worry nobody says out loud: will it all come back?\n\nIn a trial follow-up of 327 adults, people who stopped both the medicine and the lifestyle support had regained about two-thirds of the weight they lost a year later. Averages, not a promise about you.\n\nThat is biology, not a failure of willpower. It is why we plan the 'after' from day one: habits, food, strength and check-ins.\n\nBefore you start, hear it from a doctor, not a reel. steerclub.com\n\nSource: Wilding et al., Diabetes Obes Metab 2022 (STEP 1 trial extension).",
+    "caption_hi": "Sabse bada darr: kya sab wapas aa jayega?\n\nEk trial follow-up mein 327 adults the. Jinhone medicine aur lifestyle support dono band kiye, unka ek saal baad lagbhag do-tihai ghataya hua weight wapas aa gaya tha. Yeh averages hain, aapke liye promise nahi.\n\nYeh biology hai, willpower ki kami nahi. Isiliye hum 'baad ka plan' pehle din se banate hain: habits, khana, strength aur check-ins.\n\nShuru karne se pehle doctor se suniye, reel se nahi. steerclub.com\n\nSource: Wilding et al., Diabetes Obes Metab 2022.",
+    "hashtags": ["#SteerClub", "#MetabolicHealth", "#IndianHealth", "#LoseWellLiveWell", "#WeightHealth", "#DoctorLed"]
+  },
+  "static": {
+    "slide": {"type": "stat", "eyebrow": "from a trial follow-up", "stat": "two-thirds", "headline": "of the lost weight came back a year after the medicine and the support stopped. That is *biology,* not failure.", "claims": ["c1"], "steer_view_text": "That is biology, not failure."},
+    "caption": "A year after both the medicine and the lifestyle support stopped, trial participants had regained about two-thirds of the weight they lost. Averages, not a promise. It is biology, not failure, and it is why we plan the 'after' from day one.\n\nsteerclub.com\n\nSource: Wilding et al., Diabetes Obes Metab 2022.",
+    "hashtags": ["#SteerClub", "#MetabolicHealth", "#DoctorLed"]
+  },
+  "reel": {
+    "scenes": [
+      {"slide": {"type": "cover", "eyebrow": "field notes", "headline": "Will it all *come back* if you stop?", "sub": ""}, "say": "Will the weight all come back if you stop? Here is what one trial found.", "sub": "Will it all come back if you stop?", "claims": []},
+      {"slide": {"type": "stat", "eyebrow": "one year later", "stat": "two-thirds", "headline": "of the weight lost had come back after stopping."}, "say": "A year after the medicine and the support stopped, people in the trial had regained about two thirds of the weight they had lost.", "sub": "A year after stopping, about two-thirds of the weight lost had come back.", "claims": ["c1"]},
+      {"slide": {"type": "bars", "eyebrow": "the numbers", "headline": "Lost. *Then regained.*", "items": [
+        {"label": "Lost on treatment (average)", "display": "17.3%", "value": 17.3, "max": 20},
+        {"label": "Regained after (points)", "display": "11.6", "value": 11.6, "max": 20}]}, "say": "On average they lost seventeen point three percent, then regained eleven point six points.", "sub": "Lost 17.3% on average. Regained 11.6 points.", "claims": ["c2", "c3"]},
+      {"slide": {"type": "statement", "eyebrow": "the steer view", "headline": "That is *biology,* not willpower.", "body": "Averages from a follow-up of 327 adults. A signal, not a promise."}, "say": "That is biology, not willpower. And these are averages, not a promise about you.", "sub": "That is biology, not willpower. Averages, not a promise.", "claims": ["c5", "c7"]},
+      {"slide": {"type": "bullets", "eyebrow": "so plan for it", "headline": "Ask about the *after.*", "lines": ["What is my maintenance plan?", "How is the exit planned?"]}, "say": "So ask about the after. What is my maintenance plan, and how is the exit planned?", "sub": "Ask: what is my plan for after?", "steer_view": true},
+      {"slide": {"type": "cta", "headline": "Hear it from a doctor, *not a reel.*", "pill": "steerclub.com", "small": "No obligation."}, "say": "Hear it from a doctor, not a reel. Steer club dot com.", "sub": "Hear it from a doctor, not a reel.", "steer_view": true}
+    ],
+    "caption": "Will it all come back if you stop? One trial follow-up found people regained about two-thirds of the weight they lost a year after stopping the medicine and the support. It is biology, not willpower. Ask about the 'after'. steerclub.com\n\nSource: Wilding et al., Diabetes Obes Metab 2022.",
+    "hashtags": ["#SteerClub", "#MetabolicHealth", "#IndianHealth", "#DoctorLed"]
+  }
+}

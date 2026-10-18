@@ -1,0 +1,8 @@
+SOURCE: Obesity and Dyslipidemia in South Asians. Nutrients 2013;5(7):2708-2733. https://pmc.ncbi.nlm.nih.gov/articles/PMC3738996
+RETRIEVED: abstract and body excerpts as returned by web search (full text blocked from this environment).
+
+Because of the occurrence of type 2 diabetes, dyslipidemia and other cardiovascular morbidities at a lower range of body mass index (BMI) and waist circumference (WC), it is proposed that cut-offs for both measures of obesity should be lower (BMI 23-24.9 kg/m2 for overweight and >=25 kg/m2 for obesity, WC >=80 cm for women and >=90 cm for men for abdominal obesity) for South Asians, and a consensus guideline for these revised measures has been developed for Asian Indians.
+
+Various studies have shown that South Asians are at risk of developing obesity related co-morbidities at lower levels of body mass index (BMI) and waist circumference (WC), and that they have higher body fat at a given value of BMI than white Caucasians. Based on these reports, it has been debated whether BMI cut-offs for diagnosis of overweight and obesity should be lower for Asian populations as compared to the available international guidelines. In 2004, a WHO expert Consultative Committee opined that Asian populations have different associations between BMI, percentage of body fat and health risks than do European populations and suggested BMI cut-offs as >=23-24.9 kg/m2 and >=25 kg/m2 for overweight and obesity, respectively.
+
+Cut-offs of obesity and abdominal obesity for Asian Indians vs. international criteria. (BMI cut-offs in kg/m2) Overweight: 23.0-24.9 Obesity: >25 Overweight: 25.0-29.9 b Obesity: >30 b

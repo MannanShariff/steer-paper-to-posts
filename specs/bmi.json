@@ -1,0 +1,334 @@
+{
+  "id": "bmi",
+  "paper": {
+    "title": "Obesity and Dyslipidemia in South Asians",
+    "short": "Nutrients 2013;5(7):2708",
+    "tag": "Nutrients 2013",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3738996",
+    "file": "papers/south_asian_bmi.txt"
+  },
+  "audience_doubt": "Is it even for me? Is my BMI telling me the truth?",
+  "message": "BMI alone can flatter an Indian body, so ask for your waist and body composition too.",
+  "reasoning": "People with a 'normal' BMI assume they are fine, or that treatment is not for them. Showing the two BMI scales side by side makes 'built for Indian biology' visible in three seconds, and the waist flags give a number they can check at home before they talk to a doctor.",
+  "claims": [
+    {
+      "id": "c1",
+      "quote": "they have higher body fat at a given value of BMI than white Caucasians"
+    },
+    {
+      "id": "c2",
+      "quote": "BMI 23-24.9 kg/m2 for overweight and >=25 kg/m2 for obesity, WC >=80 cm for women and >=90 cm for men for abdominal obesity"
+    },
+    {
+      "id": "c3",
+      "quote": "Overweight: 25.0-29.9 b Obesity: >30"
+    }
+  ],
+  "carousel": {
+    "slides": [
+      {
+        "type": "cover",
+        "eyebrow": "know your numbers",
+        "headline": "Your BMI says *normal.* Your waist may *disagree.*",
+        "sub": "Why the usual scale can miss Indian bodies.",
+        "claims": []
+      },
+      {
+        "type": "statement",
+        "eyebrow": "what studies find",
+        "headline": "Same BMI. *More body fat.*",
+        "body": "Studies find South Asians tend to carry higher body fat at a given BMI than white Caucasians.",
+        "claims": [
+          "c1"
+        ]
+      },
+      {
+        "type": "numberline",
+        "eyebrow": "two scales",
+        "headline": "The lines sit *lower* for Indians.",
+        "rows": [
+          {
+            "label": "Usual BMI cut-offs",
+            "segments": [
+              [
+                20,
+                25,
+                "clay",
+                "healthy range"
+              ],
+              [
+                25,
+                30,
+                "rust",
+                "overweight"
+              ],
+              [
+                30,
+                32,
+                "ink",
+                "obesity"
+              ]
+            ]
+          },
+          {
+            "label": "Asian Indian BMI cut-offs",
+            "segments": [
+              [
+                20,
+                23,
+                "clay",
+                "healthy range"
+              ],
+              [
+                23,
+                25,
+                "rust",
+                "over"
+              ],
+              [
+                25,
+                32,
+                "ink",
+                "obesity"
+              ]
+            ]
+          }
+        ],
+        "ticks": [
+          23,
+          25,
+          30
+        ],
+        "note": "BMI in kg/m2",
+        "claims": [
+          "c2",
+          "c3"
+        ]
+      },
+      {
+        "type": "duo",
+        "eyebrow": "the waist flag",
+        "headline": "Waist at or above:",
+        "items": [
+          [
+            "80 cm",
+            "women"
+          ],
+          [
+            "90 cm",
+            "men"
+          ]
+        ],
+        "note": "Proposed Asian Indian cut-offs for abdominal obesity.",
+        "claims": [
+          "c2"
+        ]
+      },
+      {
+        "type": "bullets",
+        "eyebrow": "the steer view",
+        "headline": "So ask for *more* than a weighing scale.",
+        "lines": [
+          "Your waist, not just your weight.",
+          "A body-composition scan, so you see fat and lean separately.",
+          "A doctor who reads your numbers *for Indian bodies.*"
+        ],
+        "steer_view": true
+      },
+      {
+        "type": "cta",
+        "headline": "Before you start, hear it from a doctor, *not a reel.*",
+        "pill": "See if the programme fits you",
+        "small": "No obligation. If it isn't right for you, they'll say so."
+      }
+    ],
+    "caption": "Your BMI says 'normal'. Your waist may disagree.\n\nStudies find South Asians tend to carry more body fat at the same BMI than white Caucasians, and health risks can show up at lower BMI and waist measurements. That is why Asian Indian guidance draws the lines lower: BMI from 23 for overweight, and a waist of 80 cm (women) or 90 cm (men) as the flag for abdominal obesity.\n\nThese are screening flags, not a diagnosis. A doctor reads them alongside your labs.\n\nsteerclub.com\n\nSource: Nutrients 2013;5(7):2708, Obesity and Dyslipidemia in South Asians.",
+    "caption_hi": "Aapka BMI kehta hai 'normal'. Kamar shayad na kahe.\n\nStudies batati hain ki South Asians mein same BMI par body fat zyada ho sakta hai. Isliye Asian Indian guidance mein lines neeche hain: overweight BMI 23 se, aur kamar 80 cm (mahila) ya 90 cm (purush).\n\nYe screening flags hain, diagnosis nahi. Doctor aapke labs ke saath padhte hain.\n\nsteerclub.com\n\nSource: Nutrients 2013;5(7):2708.",
+    "hashtags": [
+      "#SteerClub",
+      "#MetabolicHealth",
+      "#BMI",
+      "#IndianHealth",
+      "#DoctorLed",
+      "#KnowYourNumbers"
+    ]
+  },
+  "static": {
+    "slide": {
+      "type": "duo",
+      "eyebrow": "know your numbers",
+      "headline": "Waist flags for *Indian bodies:*",
+      "items": [
+        [
+          "80 cm",
+          "women"
+        ],
+        [
+          "90 cm",
+          "men"
+        ]
+      ],
+      "note": "At or above this, it is worth a proper check. Screening flag, not a diagnosis.",
+      "claims": [
+        "c2"
+      ]
+    },
+    "caption": "A 'normal' BMI can hide a waist that deserves a proper check. Asian Indian guidance flags a waist of 80 cm or more in women and 90 cm or more in men. A screening flag, not a diagnosis. A doctor reads it alongside your labs.\n\nsteerclub.com\n\nSource: Nutrients 2013;5(7):2708.",
+    "hashtags": [
+      "#SteerClub",
+      "#KnowYourNumbers",
+      "#IndianHealth"
+    ]
+  },
+  "reel": {
+    "scenes": [
+      {
+        "slide": {
+          "type": "cover",
+          "eyebrow": "know your numbers",
+          "headline": "Your BMI says *normal.* Your waist may *disagree.*",
+          "sub": ""
+        },
+        "say": "Your BMI says normal. Your waist may disagree.",
+        "sub": "Your BMI says normal. Your waist may disagree.",
+        "claims": []
+      },
+      {
+        "slide": {
+          "type": "statement",
+          "eyebrow": "what studies find",
+          "headline": "Same BMI. *More body fat.*",
+          "body": "South Asians tend to carry higher body fat at a given BMI."
+        },
+        "say": "Studies find South Asians tend to carry more body fat at the same BMI.",
+        "sub": "Same BMI, more body fat.",
+        "claims": [
+          "c1"
+        ]
+      },
+      {
+        "slide": {
+          "type": "numberline",
+          "eyebrow": "two scales",
+          "headline": "The lines sit *lower.*",
+          "rows": [
+            {
+              "label": "Usual BMI cut-offs",
+              "segments": [
+                [
+                  20,
+                  25,
+                  "clay",
+                  "healthy range"
+                ],
+                [
+                  25,
+                  30,
+                  "rust",
+                  "overweight"
+                ],
+                [
+                  30,
+                  32,
+                  "ink",
+                  "obesity"
+                ]
+              ]
+            },
+            {
+              "label": "Asian Indian BMI cut-offs",
+              "segments": [
+                [
+                  20,
+                  23,
+                  "clay",
+                  "healthy range"
+                ],
+                [
+                  23,
+                  25,
+                  "rust",
+                  "over"
+                ],
+                [
+                  25,
+                  32,
+                  "ink",
+                  "obesity"
+                ]
+              ]
+            }
+          ],
+          "ticks": [
+            23,
+            25,
+            30
+          ],
+          "note": "BMI in kg/m2"
+        },
+        "say": "That is why Asian Indian guidance draws the lines lower. Overweight starts at BMI twenty three, not twenty five.",
+        "sub": "Overweight starts at BMI 23, not 25.",
+        "claims": [
+          "c2",
+          "c3"
+        ]
+      },
+      {
+        "slide": {
+          "type": "duo",
+          "eyebrow": "the waist flag",
+          "headline": "Waist at or above:",
+          "items": [
+            [
+              "80 cm",
+              "women"
+            ],
+            [
+              "90 cm",
+              "men"
+            ]
+          ],
+          "note": "Screening flag, not a diagnosis."
+        },
+        "say": "And for the waist, the flag is eighty centimetres for women and ninety for men.",
+        "sub": "Waist flag: 80 cm women, 90 cm men.",
+        "claims": [
+          "c2"
+        ]
+      },
+      {
+        "slide": {
+          "type": "bullets",
+          "eyebrow": "so ask for more",
+          "headline": "More than a *scale.*",
+          "lines": [
+            "Your waist",
+            "A body-composition scan",
+            "A doctor who reads it for you"
+          ]
+        },
+        "say": "So ask for more than a weighing scale. Your waist, a body composition scan, and a doctor who reads it for you.",
+        "sub": "Ask for more than a weighing scale.",
+        "steer_view": true
+      },
+      {
+        "slide": {
+          "type": "cta",
+          "headline": "Hear it from a doctor, *not a reel.*",
+          "pill": "steerclub.com",
+          "small": "No obligation."
+        },
+        "say": "Hear it from a doctor, not a reel. Steer club dot com.",
+        "sub": "Hear it from a doctor, not a reel.",
+        "steer_view": true
+      }
+    ],
+    "caption": "A 'normal' BMI can hide a waist that deserves a proper check. Asian Indian guidance draws the lines lower: overweight from BMI 23, waist flags at 80 cm (women) and 90 cm (men). Screening flags, not a diagnosis. steerclub.com\n\nSource: Nutrients 2013;5(7):2708.",
+    "hashtags": [
+      "#SteerClub",
+      "#KnowYourNumbers",
+      "#IndianHealth",
+      "#DoctorLed"
+    ]
+  }
+}
